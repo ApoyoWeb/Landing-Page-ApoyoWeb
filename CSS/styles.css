@@ -218,3 +218,156 @@ header {
     font-size: 20px;
 }
 
+.join-section {
+    padding: 40px 20px;
+    background-color: #eef9f4; /* Fondo suave */
+    text-align: center;
+}
+
+.join-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.benefits-list {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.benefits-list li {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid #00a896; /* Línea de color para destacar cada ítem */
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto 10px; /* Centramos cada elemento de la lista */
+}
+
+.join-section .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #00a896;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.join-section .cta-button:hover {
+    background-color: #028090;
+}
+
+
+
+.about-section {
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 23%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.member-photo {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+
+.member-role {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.member-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.projects-section {
+    padding: 40px 20px;
+    background-color: #eef2f7;
+    text-align: center;
+}
+
+.projects-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.project-box {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 30%;
+    text-align: left;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-box h3 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.project-photo {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.project-description {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.project-date {
+    font-size: 14px;
+    color: #666;
+    margin-top: auto; 
+}
