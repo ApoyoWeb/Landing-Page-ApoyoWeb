@@ -1,3 +1,118 @@
 body{
-    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    padding: 0;
+    background-color: #ffffff;
+    
+
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    position: relative;
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+
+}
+
+.navbar{
+    background-color: white;
+    color: black;
+    padding: 10px,20px;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px,0;
+}
+
+#logo{
+    font-size: 40px;
+    margin:0;
+}
+
+#menu{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li{
+    margin-right: 80px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+#menu a:hover{
+    color: rgb(151, 149, 149);
+    
+}
+
+
+.cta-content{
+    background-color:white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text{
+    text-align: left;
+    width: 50%;
+
+}
+
+.cta-content h2{
+    font-size: 40px;
+    margin-bottom:  20px;
+}
+
+.cta-content {
+    font-size: 20px;
+
+}
+
+.cta-button{
+    background-color: #000000;
+    color: white;
+    padding: 15px 30px;
+    text-decoration:  none;
+    font-weight: bold;
+  
+    border-radius: 0px;
+    display: inline-block;
+
+}
+
+.cta-button:hover{
+    background-color: #0f0f0f;
+}
+
+.cta-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.imagen-con-hover{
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.1s;
+}
+.imagen-con-hover:hover{
+    filter: grayscale(50%);
 }
